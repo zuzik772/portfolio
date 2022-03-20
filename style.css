@@ -553,7 +553,9 @@ footer h3:hover {
   .graphics {
     width: 100%;
   }
-
+  .projects_cards {
+    grid-template-columns: 1fr;
+  }
   footer {
     justify-content: center;
     gap: 1rem;
