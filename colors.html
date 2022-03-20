@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Colors & animations</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="project_colors">
+  <nav>
+      <!-- Menu component layout -->
+      <a href="index.html" id="logo">ZCH</a>
+      <div class="flex">
+        <ul>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="index.html#intro">About</a></li>
+        </ul>
+        <!-- toggle switch contaner -->
+        <div class="toggle-container">
+          <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+        </div>
+      </div>
+
+    </nav>
+    <header>
+      <div class="header_text">
+        <h1>Colors & animations</h1>
+        <p>Focus on color palette, dark mode and animations.</p>
+        <button type="button">Full project &#x2794;</button>
+             <button type="button">Color tester &#x2794;</button>
+      </div>
+      <div class="header_graphics"><img src="img/desktop_color-tester.png" alt="mockup" /></div>
+    </header>
+    <section id="intro">
+      <div class="intro_container">
+        <h2>Colors & animations</h2>
+        <h3>Theme 12c - Design for Developers</h3>
+        <article class="intro_text">
+          <div>
+            <h4>1. Color palette </h4>
+            <p>
+      Choosing a color palette is the never-ending story for me, so I had to be strict and made some decisions. My best friend was Hue Mint where I was choosing my color palette from and confirming the contrast rules on Adobe Color Contrast.
+            </p>
+              <img class="graphics" src="img/desktop_color-tester.png" alt="">
+          </div>
+          <div>
+            <h4>2. Dark theme</h4>
+            <p>
+             As a second step I made a dark theme. I used JS and local storage to do that and created new variables for dark mode. However, before I had to make sure my contrast is sufficient, so I have used provided color tester file to make adjustments.
+            </p>
+            <img class="graphics" src="img/localStorage.PNG" alt="">
+          </div>
+          <div>
+            <h4>3. Animations</h4>
+            <p>
+            Last part was adding the animations, we made some progress while learning GSAP so I have decided to apply scroll trigger and some simple tween while using methods gsap.to and gsap.from and the best one for more than one action gsap.timeline.
+            </p>
+                      <img class="graphics" src="" alt="">
+
+         <div>
+
+          <div>
+            <h4>Mock ups</h4>
+                <p>
+              To check responsive details see Mobile, Tablet & Desktop mock ups.
+              </p>
+                   <div class="intro_graphics">
+                     <div><img src="img/mobile_color.png" alt=""><a href="img/mobile_color.png" target="_blank" >Zoom</a></div>
+                     <div><img src="img/tablet_color.png" alt=""><a href="img/tablet_color.png" target="_blank" >Zoom</a></div>
+                     <div><img src="img/desktop_color.png" alt=""><a href="img/desktop_color.png" target="_blank" >Zoom</a></div>
+          </div>
+      </div>
+      </div>
+
+      </div>
+    </article>
+    </section>
+
+  <section id="projects">
+      <h2>Other projects</h2>
+
+      <div class="projects_cards">
+        <article class="projects_card">
+
+          <div class="projects_card_graphics"><img src="img/desktop_darkmode.png" alt="" /></div>
+          <div class="projects_card_text">
+            <h3>Fonts & UI cards</h3>
+            <p>Focus on font hierarchy, type scale & UI cards.</p>
+            <button><a href="fonts.html">See more</a></button>
+          </div>
+        </article>
+        <article class="projects_card">
+  
+          <div class="projects_card_graphics"><img src="img/desktop_color-tester.png" alt="" /></div>
+          <div class="projects_card_text">
+            <h3>Colors & animations</h3>
+            <p>Focus on color palette, contrast & GSAP.</p>
+              <button><a href="colors.html">See more</a></button>
+          </div>
+        </article>
+        <article class="projects_card">
+
+          <div class="projects_card_graphics"><img src="img/desktop_responsive.png" alt="" /></div>
+          <div class="projects_card_text">
+            <h3>Responsive design</h3>
+            <p>Focus on responsivness (flex & grid).</p>
+                 <button><a href="responsive.html">See more</a></button>
+          </div>
+        </article>
+        <article class="projects_card">
+     
+          <div class="projects_card_graphics"><img src="img/desktop_pico.png" alt="" /></div>
+          <div class="projects_card_text">
+            <h3>Designing with frameworks</h3>
+            <p>Focus on Pico & Bootstrap.</p>
+     <button><a href="pico.html">See more</a></button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h3>Designed & Built by Zuzana Chudinová</h3>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
